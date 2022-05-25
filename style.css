@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website{
+
+}
+.menu-section{
+}
+.menu-section ul{
+    text-align: center;
+}
+.menu-section ul li {
+    display: inline-block;
+    padding: 15px 6px;
+}
+.menu-section ul li a {
+    text-decoration: none;
+    padding: 12px 18px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    background: #48dbfb;
+    transition: .5s;
+    position: relative;
+}
+.menu-section ul li a:hover{
+background-color: #fff;
+color: rgb(6, 214, 251);
+
+}
+.menu-section ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    transition: .5s;
+}
+.menu-section ul li a:hover:before{
+    width: 100%;
+}
+/* Frist banner */
+.banner-frist{
+    background-color: #48dbfb;
+    text-align: center;
+    color: #fff;
+    padding: 60px;
+}
+.banner-frist h3 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 900;
+}
+.banner-frist h1 {
+    padding-bottom: 10px;
+    font-size: 41px;
+    font-weight: 900;
+}
+.button-div{}
+.button-div a {
+    text-decoration: none;
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    color: #fbf6f6bf;
+    font-size: 21px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.button-div a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: .5s;
+    z-index: -1;
+}
+.button-div a:hover::before{
+    width: 100%;
+}
+
+/* main-banner-gallery */
+.main-banner-gallery{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.main-banner-gallery h2 {
+    font-size: 26px;
+    font-weight: 900;
+}
+.main-banner-gallery p{
+    padding-bottom: 55px;
+}
+/* main-photo */
+.main-photo{
+
+}
+.photo-01{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-01 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-01 img:hover{
+    transform:scale(1.3) ;
+    transform: skewY(30deg ) rotate(300deg);
+
+}
+/* photo-02 */
+.photo-02{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-02 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-02 img:hover{
+    /* transform:scale(1.3) ; */
+    /* transform: skewY(30deg ); */
+    transform: rotate(30deg);
+
+}
+/* .photo-03 */
+.photo-03{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-03 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-03 img:hover{
+    /* transform:scale(1.3) ; */
+    /* transform: skewY(30deg ) rotate(300deg); */
+    transform: rotate(-30deg);
+
+}
+/* .photo-04 */
+.photo-04{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-04 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-04 img:hover{
+    /* transform:scale(1.3) ; */
+    /* transform: skewY(30deg ) rotate(300deg); */
+    transform: rotate(-30deg);
+
+}
+
+/* .photo-05 */
+.photo-05{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.img-img5{
+    height: 30px;
+    /* overflow: hidden; */
+}
+.photo-05 img {
+    height: 173px;
+    width: 228px;
+    transition: .3s;
+    cursor: pointer;
+    padding-bottom: -4px;
+    /* overflow: hidden; */
+}
+.photo-05 img:hover{
+    transform: rotate(30deg);
+    
+}
+
+/* .photo-06 */
+.photo-06{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-06 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-06 img:hover{
+    transform:scale(1.3) ;
+    transform: rotate(300deg);
+
+}
+/* .photo-07 */
+.photo-07{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-07 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-07 img:hover{
+
+    transform: scale(1.1) rotate(10deg);
+
+}
+/* .photo-08 */
+.photo-08{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+.photo-08 img{
+    height: 170px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.photo-08 img:hover{
+    transform: scale(1.2) rotate(-10deg);
+}
+
+/* main-photo-bottome */
+.highe-h1 {
+    
+    font-size: 32px;
+    margin-bottom: 14px;
+    margin-top: 120px
+}
+.p-tage{
+    
+}
+/* button-div */
+.main-button-div {
+    /* display: inline-block; */
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.frist-div-01 {
+    height: 60px;
+    width: 130px;
+    background-color: rgb(16, 3, 3);
+    display: inline-block;
+    position: absolute;
+    margin-left: -380px;
+    color: #fff;
+}
+.frist-div-01:hover{
+    transform: scale(1.3);
+    transition: .3s;
+    overflow: hidden;
+    background-color: #48dbfb;
+    color: #000;
+}
+
+.frist-div-02 {
+    height: 60px;
+    width: 130px;
+    background-color: rgb(1, 10, 4);
+    display: inline-block;
+    color: #fff;
+}
+.frist-div-02:hover{
+    transform: rotate(30deg);
+    transition: .3s;
+    background-color: #48dbfb;
+    color: #000;
+}
+
+.frist-div-03 {
+    height: 60px;
+    width: 130px;
+    background-color: rgb(7, 3, 1);
+    display: inline-block;
+    position: absolute;
+    /* margin-right: -45px; */
+    right: 246px;
+    color: #fff;
+}
+.frist-div-03:hover{
+    transform: rotate(-30deg);
+    transition: .3s;
+    background-color: #48dbfb;
+    color: #000;
+}
+/* futter-bottom */
+.futter-bottom {
+    background-color: #2e2f31;
+    padding: 21px;
+    margin-top: 37px;
+}
+.futter-bottom p {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+}
